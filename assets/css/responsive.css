@@ -1,0 +1,439 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    :root{
+        --f64: 54px;
+        --f24: 20px;
+      }
+    .notice_content {
+        max-width: 1085px;
+        margin-inline: auto;
+    }
+    .menu-area nav ul li a {
+        font-size: 18px;
+    }
+    
+    .hero_content h1 {
+        font-size: 80px;
+    }
+    
+    .town_content_top p {
+        font-size: 16px;
+    }
+    
+    .exp_wrp {
+        font-size: 18px;
+    }
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    :root{
+        --f64: 54px;
+        --f24: 20px;
+      }
+    .notice_content {
+        max-width: 846px;
+        margin-inline: auto;
+    }
+    .menu-area nav ul li a {
+        font-size: 18px;
+    }
+    
+    .hero_content h1 {
+        font-size: 80px;
+    }
+    
+    .town_content_top p {
+        font-size: 16px;
+    }
+    
+    .exp_wrp {
+        font-size: 16px;
+        padding: 30px 30px;
+    }
+
+    .call_now_blk:after {
+        right: 0;
+    }
+    
+    .header_top {
+        background: #3591D2;
+    }
+    
+    .call_now_blk {
+        text-align: center;
+    }
+    
+    .call_now {
+        justify-content: center;
+    }
+    .notice_content h1 {
+        width: 235px;
+        font-size: 55px;
+    }
+    
+    .notice_content p {
+        max-width: 500px;
+    }
+    
+    .town-Area .row {
+        align-items: center;
+    }
+    
+    .Sail-Area .row {
+        align-items: center;
+    }
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    :root{
+        --f64: 42px;
+        --f24: 18px;
+      }
+    .notice_content {
+        max-width: 640px;
+        margin-inline: auto;
+        flex-direction: column;
+        align-items: start;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu-area nav ul li a {
+        font-size: 18px;
+    }
+    
+    .hero_content h1 {
+        font-size: 75px;
+    }
+    
+    .town_content_top p {
+        font-size: 16px;
+    }
+    
+    .exp_wrp {
+        font-size: 16px;
+        padding: 30px 30px;
+    }
+
+    .call_now_blk:after {
+        right: 0;
+    }
+    
+    .header_top {
+        background: #3591D2;
+    }
+    
+    .call_now_blk {
+        text-align: center;
+    }
+    
+    .call_now {
+        justify-content: center;
+    }
+    .notice_content h1 {
+        font-size: 55px;
+        margin-bottom: 20px;
+    }
+    
+    .notice_content p {
+        max-width: 500px;
+        margin-left: 0;
+    }
+    
+    .town-Area .row {
+        align-items: center;
+    }
+    
+    .Sail-Area .row {
+        align-items: center;
+    }
+    .hero_right {
+        display: none;
+    }
+    
+    .hero_content {
+        text-align: center;
+        max-width: 585px;
+        margin-inline: auto;
+    }
+    
+    .hero-Area {
+        height: 700px;
+    }
+    
+    .side_img img {transform: translateY(50px);}
+    
+    .Schedule_blk {
+        margin-bottom: 30px;
+    }
+    
+    .ab_right {
+        margin-top: 0px;
+        padding-left: 160px;
+        padding-right: 20px;
+        margin-bottom: 170px;
+    }
+    
+    .Gallery-Area .container {
+        max-width: 560px;
+    }
+    
+    img.Flower7 {
+        scale: .5;
+    }
+    
+    .Gallery_content {
+        margin-top: 40px;
+    }
+    
+    .town_content {
+        max-width: 500px;
+        margin-inline: auto;
+        margin-top: 20px;
+        padding-bottom: 40px;
+    }
+    
+    .Sail_img {
+        max-width: 300px;
+        margin-bottom: 30px;
+        margin-inline: auto;
+    }
+    
+    section.Sail-Area {
+        text-align: center;
+    }
+    
+    .Sail_text {
+        padding-left: 0;
+        max-width: 90%;
+        margin-inline: auto;
+    }
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    :root{
+        --f64: 36px;
+        --f24: 18px;
+      }
+      .header-area {
+        padding-top: 10px;
+    }
+    .notice_content {
+        max-width: 349px;
+        margin-inline: auto;
+        flex-direction: column;
+        align-items: start;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+    }
+    .menu-area nav ul li a {
+        font-size: 18px;
+    }
+    
+    .hero_content h1 {
+        font-size: 40px;
+    }
+    
+    .town_content_top p {
+        font-size: 16px;
+    }
+    
+    .exp_wrp {
+        font-size: 16px;
+        padding: 30px 30px;
+    }
+
+    .call_now_blk:after {
+        right: 0;
+    }
+    
+    .header_top {
+        background: #3591D2;
+    }
+
+.call_now img {
+    scale: .7;
+    margin-right: 0;
+}
+    
+    .call_now_blk {
+        text-align: center;
+        padding: 0;
+    }
+    
+    .call_now {
+        justify-content: center;
+        font-size: 16px;
+    }
+    .notice_content h1 {
+        font-size: 42px;
+        margin-bottom: 20px;
+    }
+    
+    .notice_content p {
+        max-width: 500px;
+        margin-left: 0;
+    }
+    
+    .town-Area .row {
+        align-items: center;
+    }
+    
+    .Sail-Area .row {
+        align-items: center;
+    }
+    .hero_right {
+        display: none;
+    }
+    
+    .hero_content {
+        text-align: center;
+        max-width: 325px;
+        margin-inline: auto;
+    }
+
+.hero-Area .container {
+    justify-content: center;
+}
+    
+    .hero-Area {
+        height: 554px;
+    }
+    
+    .side_img img {transform: translateY(0px);}
+
+img.Flower5 {
+    max-width: 188px;
+    bottom: -92px;
+    right: 77px;
+}
+
+.Flower3 {
+    bottom: -60px;
+    max-width: 108px;
+}
+
+img.Flower4 {
+    max-width: 172px;
+    bottom: -100px;
+}
+    
+    .Schedule_blk {
+        margin-bottom: 30px;
+        flex-direction: column;
+        font-size: 16px;
+    }
+    
+    .ab_right {
+        margin-top: 0px;
+        padding-right: 20px;
+        margin-bottom: 95px;
+        text-align: center;
+        padding-left: 20px;
+    }
+    
+    .Gallery-Area .container {
+        max-width: 560px;
+    }
+    
+    img.Flower7 {
+        scale: .5;
+    }
+    
+    .Gallery_content {
+        margin-top: 40px;
+    }
+
+.Gallery-Area {
+    padding-bottom: 70px;
+}
+    
+    .town_content {
+        max-width: 500px;
+        margin-inline: auto;
+        margin-top: 20px;
+        padding-bottom: 40px;
+    }
+    
+    .Sail_img {
+        max-width: 210px;
+        margin-bottom: 30px;
+        margin-inline: auto;
+    }
+    
+    section.Sail-Area {
+        text-align: center;
+    }
+    
+    .Sail_text {
+        padding-left: 0;
+        max-width: 90%;
+        margin-inline: auto;
+    }
+    .ab_left span {
+        display: none;
+    }
+    
+    .ab_left div {
+        margin-left: 0;
+    }
+    
+    .ab_left {
+        text-align: center;
+    }
+
+.Schedule-Area .sec_title {
+    margin-bottom: 30px;
+}
+    
+    .Schedule_text {
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .Schedule_blk i {
+        margin-inline: auto;
+    }
+    
+    .hero_content span {
+        font-size: 20px;
+    }
+    
+    .Gallery_content .sec_title {
+        text-align: center;
+    }
+    
+    .Gallery_content a.thm_btn {
+        float: unset;
+        margin: auto;
+        width: max-content;
+        display: block;
+        margin-top: 30px;
+    }
+    
+    img.Flower_noti {
+        right: 0;
+        max-width: 120px;
+        top: -61px;
+    }
+    .footer_area{
+    padding-bottom: 30px;
+}
+ 
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
